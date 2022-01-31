@@ -1,0 +1,8 @@
+#!/bin/bash
+echo enter the username
+
+read username
+
+
+text="scp $1 $username@$2:~/$1"
+eval $text
